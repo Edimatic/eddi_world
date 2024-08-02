@@ -1,0 +1,188 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.welcome-page {
+  background: url(../assets/backgrounds/h_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110vh;
+}
+
+.welcome {
+  text-align: center;
+  position: absolute;
+  top: 34%;
+  left: 27%;
+}
+
+.welcome-page h1,
+.welcome-page p,
+.welcome-page img {
+  color: white;
+}
+
+.logo {
+  margin-bottom: 30px;
+}
+
+.mouse {
+  animation: upDown 1.5s linear infinite alternate;
+}
+
+.about {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.services {
+  background: url(../assets/backgrounds/s_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+}
+
+.ourServices {
+  padding: 120px 0;
+}
+
+.what-we-do {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.what-we-do img {
+  cursor: pointer;
+}
+
+.what-we-do h2 {
+  padding-bottom: 25px;
+}
+
+.hide1,
+.hide2,
+.hide3 {
+  display: none;
+}
+
+.portfolio {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.portfolio h2 {
+  padding-bottom: 25px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.works {
+  padding: 0 20px 20px 0;
+  position: relative;
+}
+
+.works img {
+  height: 200px;
+}
+.img_title1,
+.img_title2,
+.img_title3,
+.img_title4,
+.img_title5,
+.img_title6,
+.img_title7,
+.img_title8 {
+  visibility: hidden;
+  border: 5px solid #fff;
+  height: 170px;
+  width: 200px;
+  position: absolute;
+  font-weight: bolder;
+  color: rgb(250, 243, 243);
+  text-align: center;
+  float: left;
+  padding: 65px 0;
+  cursor: pointer;
+}
+
+.contact {
+  background: url(../assets/backgrounds/c_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  margin-top: 5%;
+  background-position: center center;
+}
+
+.contact h2,
+.contact form {
+  text-align: center;
+}
+
+.contact h2 {
+  padding: 70px 0 20px 0;
+  color: white;
+}
+
+input,
+textarea {
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+  margin: 5px;
+}
+
+.name,
+.email {
+  width: 370px;
+  margin-right: 20px;
+}
+
+form ::placeholder {
+  color: white;
+}
+
+.submit {
+  width: 200px;
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+  text-align: center;
+}
+
+.footer p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.socials {
+  margin-top: 25px;
+}
+
+.socials img {
+  padding: 7px;
+}
